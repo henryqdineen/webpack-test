@@ -79,7 +79,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (() => __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./b */ \"./src/b.js\")).then((b) => `(${b()})`));\n\n\n//# sourceURL=webpack:///./src/a.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (() => __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./b */ \"./src/b.js\")).then((b) => `(${b.default()})`));\n\n\n//# sourceURL=webpack:///./src/a.js?");
 
 /***/ }),
 
@@ -103,7 +103,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a */ \"./src/a.js\");\n/* harmony import */ var _b__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./b */ \"./src/b.js\");\n'use es6';\n\n\n\n\n_a__WEBPACK_IMPORTED_MODULE_0__[\"default\"].then((result) => console.log(result === `(${Object(_b__WEBPACK_IMPORTED_MODULE_1__[\"default\"])()})`));\n\n//# sourceURL=webpack:///./src/specs.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a */ \"./src/a.js\");\n/* harmony import */ var _b__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./b */ \"./src/b.js\");\n'use es6';\n\n\n\n\nObject(_a__WEBPACK_IMPORTED_MODULE_0__[\"default\"])().then((result) => console.log(result === `(${Object(_b__WEBPACK_IMPORTED_MODULE_1__[\"default\"])()})`));\n\n//# sourceURL=webpack:///./src/specs.js?");
 
 /***/ })
 

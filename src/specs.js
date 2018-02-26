@@ -3,4 +3,4 @@
 import a from './a';
 import b from './b';
 
-a.then((result) => console.log(result === `(${b()})`));
+a().then((result) => console.log(result === `(${b()})`));

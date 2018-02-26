@@ -2,4 +2,4 @@
 
 import a from './a';
 
-console.log(a());
+a().then(result => console.log(result));
